@@ -1,0 +1,45 @@
+# CMake and Qt build output
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+.qt/
+*_autogen/
+
+# Compiled binaries and objects
+*.o
+*.obj
+*.so
+*.a
+*.out
+*.exe
+*.dll
+*.app
+
+# Project binaries
+/qt_basics/build/
+/qt_client/build/
+/rpi_server/imu_web_publisher
+/rpi_server/imu_socket_server
+/rpi_server/imu_multithread_server
+
+# Logs and runtime output
+*.log
+nohup.out
+/web/imu-data/
+imu_quaternion.txt
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Editors and OS noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.user
+*.swp
+*.swo
+NUL
